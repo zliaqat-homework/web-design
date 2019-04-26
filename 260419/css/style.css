@@ -1,0 +1,15 @@
+body{
+	background-color:  #ed8a63;
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+}
+table.one {border-collapse:collapse;}
+table.two {border-collapse:separate;}
+	table.one {
+	border-style:dotted; border-width:3px; border-color:#000000; padding: 10px; border-spacing:10px; 15px;
+	}
+	table.two {border-style:solid; border-width:3px; border-color:#333333; padding:10px; border-spacing:10px; 15px;
+	}
+	
+
+
