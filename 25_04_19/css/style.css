@@ -1,0 +1,23 @@
+body{
+	background-color: #AFEEEE;
+}
+.myImg img{
+	border: 5px dashed blue;
+	width: 300px;
+	height: 300px;
+	opacity: .8;
+}
+a:link{ background-color: #fff }
+/* a:visited{ background-color: #F5DEB3 }
+a:hover{ background-color: 	#FFFFE0 } */
+a:active{ background-color: blue }
+a.myAnchor:{
+	background-color: red;
+}
+a {
+	border: 3px solid #FF8C00;
+	padding: 20px;
+	margin: 30px;
+	text-decoration: none;
+	display: inline-block;
+}
