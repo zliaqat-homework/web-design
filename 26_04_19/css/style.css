@@ -1,0 +1,54 @@
+body{
+	background-color: #ECCFF7;
+}
+p.one{
+
+	border: 5px solid; border-bottom-color: #34495E; border-top-color: #D35400; border-left-color: #F1C40F; border-right-color: #229954;
+}
+p.two{
+	border: 5px solid; border-color: #B7950B;
+}
+p.three{
+	border-width: 5px; border-top-style: solid; border-bottom-style: dotted; border-left-style: groove; border-right-style: double;
+}
+p.four{
+	border-width: 6px; border-style: double;
+}
+p.five{
+	border-width: 10px; border-style: groove;
+}
+p.six{
+	border-width: 4px; border-style: inset;
+}
+p.sev{
+	border-width: 10px; border-style: outset;
+}
+p.eigh{
+	border-width: 7px; border-style: hidden;
+}
+p.nine{
+	border-width: 8px; border-style: ridge;
+}
+p.ten{
+	border-width: 10px; border-style: dotted;
+}
+p.a{
+	border-width: 5px; border-style: solid;
+}
+p.b{
+	border-width: 5pt; border-style: solid;
+}
+p.c{
+	border-width: thin; border-style: solid;
+}
+p.d{
+	border-width: thick; border-style: solid;
+}
+p.e{
+	border-width: medium; border-style: solid;
+}
+p.f{border-left-width: medium; border-right-width: thin; border-top-width: thick; border-bottom-width: 5pt; border-style: solid;
+}
+p.g{
+	border: 6px solid #808000;
+}
