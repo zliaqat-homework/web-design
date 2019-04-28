@@ -1,0 +1,36 @@
+body{
+	background-image: url("../img/b2.png");
+}
+p.A{
+	margin: 15px;
+}
+p.B{
+	margin: 10px 2%;
+}
+p.C{
+	margin: 10px 2% -10px;
+}
+p.D{
+	margin: 10px 2% -10px auto;
+}
+p.E{
+	margin: 10px 2%; border: 1px solid black;
+}
+p.F{
+	margin: 10px 2% -10px; border: 1px solid black;
+}
+p.G{
+	margin: 10px 2% -10px auto; border: 1px solid black;
+}
+p.H{
+	margin-bottom: 15px; border: 1px solid black; 
+}
+p.I{
+	margin-top: 15px; border: 1px solid black;
+}
+p.J{
+	margin-left: 5%; border: 1px solid black;
+}
+p.K{
+	margin-right: 20px; border: 1px solid black;
+}
