@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #F5D6C6;
+  color: #343148;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #D2C29D;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: ;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #F0EAD6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion with symbols</h2>
+
+<button class="accordion">HTML</button>
+<div class="panel">
+  <p>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.[3] Berners-Lee specified HTML and wrote the browser and server software in late 1990. </p>
+</div>
+
+<button class="accordion">CSS</button>
+<div class="panel">
+  <p>Hakon Wium Lie proposed the concept of CSS while working with Tim-Berner Lee in 1994. The first CSS released as a official W3C on December 17, 1996. So, first officially CSS created by Hakon Wium Lie and Bert Bos (developed Argo web browser). </p>
+</div>
+
+<button class="accordion">JavaScript</button>
+<div class="panel">
+  <p>When Eich created JavaScript in 1995, he created it for Netscape Navigator and it quickly became known as LiveScript. In another quirk of JavaScript history, the team changed the name to JavaScript to reflect Netscape’s support of Java within its browser. While this definitely sounds confusing (and yes, it confuses people to this day), at the time people said it was a “marketing tactic” to connect a brand new language (JavaScript) to a popular language at the time (Java), regardless of the fact that JavaScript and Java have almost nothing to do with each other. </p>
+</div>
+
+<button class="accordion">jQuery</button>
+<div class="panel">
+  <p>jQuery is a JavaScript library created to make it easier and simpler to write JavaScript and HTML. It works on most web browsers and was invented by John Resig. The first release was in January 2006 at BarCamp NYC. </p>
+</div>
+
+<button class="accordion">Bootstrap</button>
+<div class="panel">
+  <p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools.</p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
